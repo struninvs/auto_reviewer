@@ -1,16 +1,9 @@
 import pandas as pd
-import numpy as np
-import sys
 import os
 import streamlit as st
 import json
 import pyperclip
 from string import Template
-import markdownify
-
-from pydantic import BaseModel
-from typing import Union, Tuple
-import graphviz
 
 start_comment_student_template = Template("""<div style="border:solid green 2px; padding: 20px">
     
